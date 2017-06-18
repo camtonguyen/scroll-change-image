@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none !important;
+}
+ul{list-style-type:none}
+.clearfix{clear: both}
+nav.navbar {
+    border-bottom: 1px solid #fff;
+    background: rgba(0, 0, 0, 0);
+	color: black;
+	transition: all .5s;
+}
+.navbar-brand{
+	color: #fff;
+}
+a.nav-link{
+	color: #fff;
+}
+a.nav-link:hover, .active-link{color:darkblue !important;}
+.header{ height: 100vh;}
+.header-image{
+    background: url(../images/3.jpg) no-repeat center center;
+    background-size: cover; 
+}
+.section-content-a, .section-content-b, .section-content-c{
+	height: 100vh;
+    padding: 170px 0;
+}
+.section-content-a, .section-content-c{
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #e7e7e7;
+}
+.spacer{
+	width: 200px;
+	float: left;
+	border-bottom: 3px solid #e7e7e7;
+}
+.main-title{
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.text-content{
+	font-size: 18px;
+}
+.navChange {
+    	height: 60px;
+    	background-color: orange!important;
+        color: white;
+    	box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, .3);
+    	transition: background-color .5s;
+}
+.scrolled {
+    background:url(http://ringvemedia.com/server//bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
